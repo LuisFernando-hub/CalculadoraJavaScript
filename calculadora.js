@@ -137,7 +137,6 @@ const mapaTeclado = {
 }
 
 const mapearTeclado = (evento) => {
-    console.log(evento);
     const tecla = evento.key;
     const teclaPermitida = () => Object.keys(mapaTeclado).indexOf(tecla) != -1;
     if (teclaPermitida())
